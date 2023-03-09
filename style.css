@@ -1,15 +1,35 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
+/*  */
 * {
     margin: 0;
     padding: 0;
 }
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     min-height: 100vh;
     align-items: center;
     overflow-y: hidden;
 }
 main {
-    max-width: 300px;
+    max-width: 350px;
+    border: 2px solid red;
+    height: 350px;
+    
+}
+.card {
+    margin-top: 30px;
+}
+svg {
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Overpass', sans-serif;
+}
+p {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    width: 330px;
 }

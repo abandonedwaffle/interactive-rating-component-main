@@ -60,14 +60,25 @@ p {
     color: hsl(217, 12%, 63%);
     border: none;
 }
+.ratingScore:hover {
+    background-color: hsl(216, 12%, 54%);
+}
+.ratingScore:focus {     
+    color: white;
+    background-color:  hsl(25, 97%, 53%);
+}
 #submitButton {
     border-radius: 0%;
-    padding: 12px 145px;
+    padding: 12px 140px;
     border-radius: 25px;
     border: none;
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Overpass', sans-serif;
     letter-spacing: 2px;
+}
+#submitButton:hover {
+    background-color: white;
+    color:  hsl(25, 97%, 53%);
 }

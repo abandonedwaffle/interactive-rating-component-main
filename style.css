@@ -19,6 +19,10 @@ main {
     border-radius: 20px;
 
 }
+.design {
+    display: none;
+}
+
 .card {
     height: 350px;
     width: 340px;
@@ -28,19 +32,20 @@ main {
     margin-left: 30px;
     margin-right: 30px;
 }
-img {
+.round {
     border-radius: 50%;
     padding: 0.8rem;
     background-color: #262f38;
     margin-top: 20px;
     margin-bottom: 30px;
 }
-h2{
+.title{
     font-family: 'Overpass', sans-serif;
     color: white;
     margin-bottom: 10px;
+    /* display: none; */
 }
-p {
+.para {
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
     /* width: 330px; */

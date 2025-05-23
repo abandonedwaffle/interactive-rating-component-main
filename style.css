@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+/* Weights: 400, 700 */
+/* font-family: "Overpass", sans-serif; */
+/* font-style: normal; */
+/* font-weight: <weight>; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+    
+}
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-container {
+    max-width: 25rem;
+    background-color: hsl(216, 12%, 8%);
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 5%;
+    
+}
+
+
+.star-container {
+    width: 30px;
+    height: 30px;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 24px;
+
+}
+.star-icon {
+    width: 15px;
+    height: auto;
+
+}
+.main-container > p {
+    font-size: 15px;
+    line-height: 1.4;
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 10px;
+}
+
+.rating-button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.rating-button:hover {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.rating-button.active {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #e67e00;
+}
+
+.thankYouState {
+    display: none;
+}
+
+.thanksContainer {
+    max-width: 25rem;
+    background-color: hsl(216, 12%, 8%);
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 5%;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.thankyouicon {
+    width: 150px;
+    height: auto;
+}
+.selected-rating-display {
+    background-color: #e67e00;
+    color: white;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.thank-you-title {
+    font-size: 1.8rem;
+    color: white;
+}
+.thanks-description {
+    font-size: 0.9rem; 
+    color: #a0a0a0;    
+    line-height: 1.4;  
+    
+}
